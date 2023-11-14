@@ -16,27 +16,23 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a image you
  * freely use on your site.
  */
-import image from "../images/motion-background.jpg";
+import image from "../images/IMG_8586.jpg";
 
-const imageAltText = "purple and blue abstract background";
+const imageAltText = "A female picture";
 
 /**
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.";
+  "I'm a Marketing student studying at Tennessee Technological University. I take pleasure in devising innovative marketing strategies tailored to meet the specific requirements of customers.";
 
-/**
- * List of some of skills or technologies you work on, are learning,
- * passionate about, or enjoy,
- */
 const skillsList = [
-  "Web design",
+  "Market Research",
   "User experience",
-  "Inclusive design",
-  "Focus group testing",
-  "Mobile user interfaces",
-  "Graphic design",
+  "Adobe Analytics",
+  "Google Search Console",
+  "Advertising",
+  "Dynatrace",
 ];
 
 /**
@@ -45,7 +41,7 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
+  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my Marketing experience I continually look for new and better ways to solve customers' needs";
 
 const About = () => {
   return (
